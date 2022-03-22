@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Date 21/3/22</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<div class="merric-container">
+			<div class="merric-container_maincontent">
+				<!-- Hero Section -->
+				<div class="merric-container__sliders carousel">
+					<div
+						class="merric-container-content slider-one carousel_item carousel_item--visible"
+					>
+						<div class="merric-container-content">
+							<div class="slide-both-side-content">
+								<img
+									src="./assets/img/Group 1961.png"
+									class="desktop-img"
+									alt=""
+								/>
+								<img src="./assets/img/1.png" class="mobile-img" alt="" />
+							</div>
+							<div class="slide-middle-content">
+								<img src="./assets/img/nav_logo.png" alt="" />
+								<h1>TRY THE MERRICK DIFFERENCE</h1>
+								<p class="text-white">
+									Making the right choice is easy with Merrick. Choose from
+									<br />
+									a variety of options, including Grain Free or with Healthy
+									Grains recipes.
+								</p>
+								<div class="button-group">
+									<div class="shop-btn">
+										<a href="#">Shop Dog</a>
+									</div>
+									<div class="shop-btn">
+										<a href="#">Shop Cat</a>
+									</div>
+								</div>
+							</div>
+							<div class="slide-both-side-content">
+								<img
+									src="./assets/img/Group 1962.png"
+									class="desktop-img"
+									alt=""
+								/>
+								<img src="./assets/img/2.png" class="mobile-img" alt="" />
+							</div>
+						</div>
+					</div>
+
+					<div class="merric-container-content slider-two carousel_item">
+						<div class="merric-container-content">
+							<div class="slide-both-side-content">
+								<img
+									src="./assets/img/Group 1963.png"
+									class="desktop-img"
+									alt=""
+								/>
+								<img src="./assets/img/2.png" class="mobile-img" alt="" />
+							</div>
+
+							<div class="slide-middle-content">
+								<img src="./assets/img/nav_logo.png" alt="" />
+								<h1>FULL SOURCE</h1>
+								<p class="text-white">
+									Full Source goes full nose-to-tail, utilizing more of
+									<br />the animal for a sustainable, nutrient-rich meal your
+									dog is sure to love.
+								</p>
+								<div class="button-group">
+									<div class="shop-btn">
+										<a href="#">Shop Dog</a>
+									</div>
+									<div class="shop-btn">
+										<a href="#">Shop Cat</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="slide-both-side-content">
+								<img
+									src="./assets/img/Group 1966.png"
+									class="desktop-img"
+									alt=""
+								/>
+								<img src="./assets/img/1.png" class="mobile-img" alt="" />
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel_actions">
+						<button
+							id="carousel_button--prev"
+							aria-label="privious slide"
+						></button>
+						<button id="carousel_button--next" aria-label="next slide"></button>
+					</div>
+				</div>
+
+				<!-- Food Items -->
+				<div class="dogs-foods-seller-container">
+					<!-- Dogs Food Seller -->
+					<div class="dogs-foods-container">
+						<div class="dogs-foods-seller_title">
+							<h1>DOG FOOD BEST SELLERS</h1>
+						</div>
+						<div class="text-center">
+							<p>Delicious, top picks your dog will love.</p>
+						</div>
+
+						<div class="food-container">
+							<ul id="merrick-dog-tab-nav" class="merric_tab_nav">
+								<li class="li-active" onclick="tabNavActive(this,'all')">
+									All Recipes
+								</li>
+								<li onclick="tabNavActive(this,'free')">Dry Grain Free</li>
+								<li onclick="tabNavActive(this,'grains')">Dry Healthy Grain</li>
+								<li onclick="tabNavActive(this,'wet')">Wet</li>
+								<li onclick="tabNavActive(this,'treats')">Treats</li>
+								<li onclick="tabNavActive(this,'puppy')">Puppy</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Products Section-->
+
+					<!-- All Recipes -->
+					<div id="all" class="merrick_dog_products show">
+						<div class="cards">
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_grain_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>
+												Merrick Grain Free Real Texas Beef & Sweet Potato Recipe
+												Dry Dog Food
+											</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img
+											src="./assets/img/dog_best_healthy_grain_1.jpg"
+											alt=""
+										/>
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>
+												Merrick Classic Healthy Grains Real Chicken & Brown Rice
+												Recipe With Ancient Grains Dry Dog Food
+											</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_puppy_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_treats_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Free -->
+					<div id="free" class="merrick_dog_products">
+						<div class="cards">
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_grain_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_grain_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>
+												Merrick Classic Healthy Grains Real Chicken & Brown Rice
+												Recipe With Ancient Grains Dry Dog Food
+											</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_grain_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_grain_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Grains -->
+					<div id="grains" class="merrick_dog_products">
+						<div class="cards">
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img
+											src="./assets/img/dog_best_healthy_grain_1.jpg"
+											alt=""
+										/>
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img
+											src="./assets/img/dog_best_healthy_grain_2.jpg"
+											alt=""
+										/>
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>
+												Merrick Classic Healthy Grains Real Chicken & Brown Rice
+												Recipe With Ancient Grains Dry Dog Food
+											</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img
+											src="./assets/img/dog_best_healthy_grain_3.jpg"
+											alt=""
+										/>
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img
+											src="./assets/img/dog_best_healthy_grain_4.jpg"
+											alt=""
+										/>
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Wet -->
+					<div id="wet" class="merrick_dog_products">
+						<div class="cards">
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_wet_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_wet_2.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>
+												Merrick Classic Healthy Grains Real Chicken & Brown Rice
+												Recipe With Ancient Grains Dry Dog Food
+											</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_wet_3.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_wet_4.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>Merrick Grain Free Wingaling Wet Dog Food</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Treats -->
+					<div id="treats" class="merrick_dog_products">
+						<div class="cards">
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_treats_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_treats_2.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_treats_3.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_treats_4.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Puppy -->
+					<div id="puppy" class="merrick_dog_products">
+						<div class="cards">
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_puppy_1.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_puppy_2.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_puppy_3.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="card">
+									<div class="card-img">
+										<img src="./assets/img/dog_best_puppy_4.jpg" alt="" />
+									</div>
+									<div class="card-body">
+										<div class="card-descrition">
+											<p>ConairPro Dog Comb, Medium</p>
+										</div>
+										<a href="#">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/js/app.js"></script>
+	</body>
+</html>
